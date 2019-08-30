@@ -19,7 +19,6 @@ setuptools.setup(
     packages=setuptools.find_packages(where="serverless_pipeline"),
 
     install_requires=[
-        "aws-cdk.core",
     ],
 
     python_requires=">=3.6",
