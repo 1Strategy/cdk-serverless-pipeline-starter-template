@@ -1,6 +1,8 @@
 
 # Created by https://www.gitignore.io/api/linux,macos,python,windows,pycharm,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=linux,macos,python,windows,pycharm,visualstudiocode
+.vscode
+.idea
 
 ### CDK ###
 cdk.*

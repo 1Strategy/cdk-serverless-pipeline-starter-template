@@ -19,6 +19,13 @@ setuptools.setup(
     packages=setuptools.find_packages(where="serverless_pipeline"),
 
     install_requires=[
+        "aws-cdk.core",
+        "aws-cdk.aws_s3",
+        "aws-cdk.aws_ssm",
+        "aws-cdk.aws_codebuild",
+        "aws-cdk.aws_codepipeline",
+        "aws-cdk.aws_codepipeline_actions",
+        "aws-cdk.aws_cloudformation",
     ],
 
     python_requires=">=3.6",

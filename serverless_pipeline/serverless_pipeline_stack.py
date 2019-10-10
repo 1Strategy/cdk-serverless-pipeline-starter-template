@@ -52,7 +52,6 @@ class ServerlessPipelineStack(core.Stack):
             cache=build.Cache.bucket(artifact_bucket, prefix='codebuild-cache'),
             build_spec=build.BuildSpec.from_object({
                 'version': '0.2',
-                ''
                 'phases': {
                     'install': {
                         'runtime-versions': {
